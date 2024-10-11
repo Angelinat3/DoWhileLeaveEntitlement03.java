@@ -19,8 +19,8 @@ public class DoWhileLeaveEntitlement03 {
                     leaveEntitlement -= numLeave;
                     System.out.println("Remaining leave entitlement: " + leaveEntitlement);
                 } else {
-                    System.out.println("You dont have enough leave entitlement");
-                    break;
+                    System.out.println("You don't have enough leave entitlement. You have " + leaveEntitlement + " day(s) remaining.");
+                    
                 }
             }
         } while (leaveEntitlement > 0);
